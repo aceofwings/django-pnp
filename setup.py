@@ -2,6 +2,7 @@ from setuptools import setup
 import re
 required_packages =[
     'Django==3.1.7',
+    'channels==3.0.3',
 ]
 
 VERSION_RE = re.compile(r'__version__ = \'([\d\.]+)\'')
